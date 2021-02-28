@@ -122,3 +122,4 @@ STATIC_URL = 'pages/static/'
 STATICFILES_DIRS = (os.path.join(BASE_DIR),'pages/static',)
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+ALLOWED_HOSTS = ['floating-plateau-81323.herokuapp.com','127.0.0.1']
