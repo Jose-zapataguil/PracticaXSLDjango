@@ -1,1 +1,1 @@
-web: gunicorn django/app/composeexample.wsgi --log-file -
+web: gunicorn composeexample.wsgi --log-file -
